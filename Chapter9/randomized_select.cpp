@@ -4,6 +4,8 @@
 #include <stdexcept>
 #include <cmath>
 
+
+
 int randomized_partition(std::vector<int> & vec, int l, int r) {
 	srand(0);
 	// int i = std::rand() % (r - l + 1) + l;
